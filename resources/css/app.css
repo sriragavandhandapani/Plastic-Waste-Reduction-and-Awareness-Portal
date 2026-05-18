@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --color-eco-green: #1A3C34;
+    --color-eco-bg: #F5F0E8;
+    --color-eco-accent: #B5E550;
+    --color-eco-slate: #4A5568;
+
+    --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-serif: 'Fraunces', ui-serif, Georgia, serif;
+}
+
+@layer utilities {
+    .glass-card {
+        @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+    }
+    
+    .text-balance {
+        text-wrap: balance;
+    }
+}

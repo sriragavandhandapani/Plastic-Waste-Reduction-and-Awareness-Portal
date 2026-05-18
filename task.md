@@ -1,0 +1,32 @@
+# EcoNexus Task List
+
+- [x] Project Setup & Environment
+  - [x] Initialize fresh Laravel 11 project
+  - [x] Install and configure `mongodb/laravel`
+  - [x] Install Vite, Tailwind CSS, and Alpine.js
+  - [x] Configure custom theme colors and Google Fonts
+- [x] Database Models
+  - [x] User Model
+  - [x] Campaign Model
+  - [x] Solution Model
+  - [x] Category Model
+  - [x] Bookmark Model
+  - [x] Validation Model
+- [x] Authentication & Middleware
+  - [x] Custom authentication controllers
+  - [x] Role-based Middleware
+  - [x] Validation Middleware
+- [x] UI Design System & Layouts
+  - [x] Layouts (`app.blade.php`, `admin.blade.php`, `proposer.blade.php`)
+  - [x] Generic Components (Navbar, Footer, Cards, Alerts)
+- [x] Public & Explore Pages
+  - [x] Landing page (`landing.blade.php`)
+  - [x] Explore page (`explore/index.blade.php`)
+  - [x] Detail views
+- [x] Dashboards & Management
+  - [x] Admin dashboard
+  - [x] Proposer dashboard
+- [x] Verification
+  - [x] Seed dummy data
+  - [x] Test auth flows
+  - [x] Verify UI and functionality
